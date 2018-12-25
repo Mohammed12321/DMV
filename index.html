@@ -1,20 +1,18 @@
 <script>
-  
+
   function check() {
     var x1 = document.forms["myForm"]["license_plate"].value;
     var x2 = document.forms["myForm"]["vin"].value;
 
-
-
-    if (x1 ===  x2) 
+    if (x1 ===  x2)
     {
-    
+
         alert("License_plate and  VIN must not be empty");
         document.getElementById("license_plate").style.color = "red";
         return false;
 
-    
-    
+
+
     }
 
 
@@ -67,7 +65,7 @@ of the license plate entered below</h5>
 
 
 <select  name="state" style="width: 100px; height: 30px;">
- 
+
 <option value="Alabama">Alabama</option>
 <option value="Alaska">Alaska</option>
 <option value="Arizona">Arizona</option>
@@ -132,7 +130,7 @@ of the license plate entered below</h5>
 <select name="message" style="width: 300px; height: 30px;">
   <option value="tow away">Tow Away</option>
   <option value="Someone break car">Break your vehicle</option>
-  
+
 </select></br></br>
 
 <input type="submit" value="Submit"  style="width: 300px; height:40px;" /></br>
@@ -173,31 +171,4 @@ of the license plate entered below</h5>
   };
   firebase.initializeApp(config);
 
-</script>  
-  
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</script>
