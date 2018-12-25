@@ -122,7 +122,7 @@ body  {
 
 
 
-</br></br></br></br></br></br>
+</br></br></br>
 </head>
 <body>
 
@@ -196,8 +196,8 @@ if ($result->num_rows > 0) {
 <input type="hidden" size="40" value="<?php echo "$id"; ?>" name="id"  style="width:320px; height: 50px;" >
 <input type="hidden" size="40" value="<?php echo "$phone"; ?>" name="phone"  style="width:320px; height: 50px;" >
 
-<input type="text" size="40" value="<?php echo "$license_plate"; ?>" name="license_plate"  style="width:320px; height: 50px;" >
-<button Onclick="return myFn();" type="submit" name="delete" value="Delete" style="width:320px; height: 50px;">Delete</button>
+<input type="text" size="40" value="<?php echo "$license_plate"; ?>" name="license_plate"  style="width:250px; height: 40px;" >
+<button Onclick="return myFn();" type="submit" name="delete" value="Delete" style="width:250px; height: 40px;">Delete</button>
 </form>
 </center>
 
@@ -212,20 +212,20 @@ if ($result->num_rows > 0) {
 <input type="hidden" size="40" value="<?php echo "$id"; ?>" name="id"  style="width:320px; height: 50px;" >
 <input type="hidden" size="40" value="<?php echo "$phone"; ?>" name="phone"  style="width:320px; height: 50px;" >
 
-<input type="text" size="40" placeholder="New license plate" name="license_plate"  style="width:320px; height: 50px;" required>
-<button Onclick="return myFn();" type="submit" name="insert_edit" value="Insert" style="width:320px; height: 50px;">Add new car</button>
+<input type="text" size="40" placeholder="New license plate" name="license_plate"  style="width:250px; height: 40px;" required>
+<button Onclick="return myFn();" type="submit" name="insert_edit" value="Insert" style="width:250px; height: 40px;">Add new car</button>
 </form></br>
 
 
 <form action="edit.php" name="myForm"   method="post">
 <input type="hidden" size="40" value="<?php echo "$id"; ?>" name="id"  style="width:320px; height: 50px;" required>
-<input type="text" size="40" placeholder="Enter new phone number" name="phone"  style="width:320px; height: 50px;" required>
-<button Onclick="return myFn();" type="submit" name="change" value="Insert" style="width:320px; height: 50px;">change phone number</button>
+<input type="text" size="40" placeholder="Enter new phone no." name="phone"  style="width:250px; height: 40px;" required>
+<button Onclick="return myFn();" type="submit" name="change" value="Insert" style="width:250px; height: 40px;">change phone no.</button>
 </form></br>
 
 
 <form action="index.html" name="myForm"  method="post">
-<input type="submit" value="Main menu" style="width:320px; height: 50px;">
+<input type="submit" value="Main menu" style="width:250px; height: 40px;">
 
 </form>
 

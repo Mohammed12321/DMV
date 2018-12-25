@@ -204,15 +204,15 @@ body  {
 <center>
 
 <h3>
-</br></br></br></br></br></br>
+</br></br></br>
 <form action="edit_test.php" name="myForm"  onsubmit="return validateForm()" method="post">
 
-<input type="text" size="40" placeholder ="Enter the sent code" id="code_id" name="code" style="width:320px; height: 50px;" required></br>
+<input type="text" size="40" placeholder ="Enter the sent code" id="code_id" name="code" style="width:250px; height: 40px;" required></br>
 <input type="hidden" size="40" value ="<?php echo $code; ?>" name="sent_code" style="width:320px; height: 50px;" required>
 <input type="hidden" size="40"   value= "<?php echo "$phone_search"; ?>"   name="phone" style="width:320px; height: 50px;" >
 <input type="hidden" size="40"   value= "<?php echo "$id"; ?>" id="demo" name="id" style="width:320px; height: 50px;" ></br>
 
-<input type="submit" value="Insert code"  name="insert" style="width:320px; height: 50px;">
+<input type="submit" value="Insert code"  name="insert" style="width:250px; height: 40px;">
 
 </form>
 </h3>

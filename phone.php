@@ -111,13 +111,13 @@ body  {
 
 <h3>
 
-</br></br></br></br></br></br></br>
+</br></br></br>
 
 <form action="code.php" name="myForm" onsubmit="return validateForm()" method="post">
 
-<input type="text" size="40" placeholder ="Enter your Phone" id="demo" name="phone" style="width:320px; height: 50px;" required></br></br>
+<input type="text" size="40" placeholder ="Enter your Phone" id="demo" name="phone" style="width:250px; height: 40px;" required></br></br>
 
-<input type="submit" value="Insert phone no."  name="insert" style="width:320px; height: 50px;" >
+<input type="submit" value="Insert phone no."  name="insert" style="width:250px; height: 40px;" >
 
 </form>
 </h3>
